@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<handler-chains xmlns="http://java.sun.com/xml/ns/javaee">
+        <handler-chain>
+            <handler>
+                <handler-name>com.mycompany.cxf.LoggingHandler</handler-name>
+                <handler-class>com.mycompany.cxf.LoggingHandler</handler-class>
+            </handler>
+            <handler>
+                <handler-name>com.mycompany.cxf.LogHandler</handler-name>
+                <handler-class>com.mycompany.cxf.LogHandler</handler-class>
+            </handler>
+        </handler-chain>
+</handler-chains>
